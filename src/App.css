@@ -1290,7 +1290,7 @@ label.icon-btn:focus-within { outline: 2px solid var(--amber); outline-offset: 2
   cursor: zoom-in;
 }
 
-.case-hero img { display: block; width: 100%; max-height: 300px; object-fit: cover; }
+.case-hero img { display: block; width: 100%; max-height: 400px; object-fit: contain; }
 
 .prompt-text {
   width: 100%;
