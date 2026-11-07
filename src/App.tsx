@@ -1028,9 +1028,8 @@ function App() {
     setSelectedPromptCategoryId(randomItem.categoryId)
     setRawSelectedPromptTitle(randomItem.title)
     setIsPromptPreviewExpanded(true)
-    setImagePrompt(randomItem.prompt)
-    openImageComposer()
-    setStatus(`已随机填入灵感模板：${randomItem.categoryName} / ${randomItem.title}`)
+    setLibraryDetailOpen(true)
+    setStatus(`已随机选择灵感模板：${randomItem.categoryName} / ${randomItem.title}`)
   }
 
   const applyPromptCase = (prompt: string) => {
@@ -1055,9 +1054,8 @@ function App() {
     setSelectedCaseCategory(randomItem.category)
     setRawSelectedCaseNumber(randomItem.number)
     setIsPromptPreviewExpanded(true)
-    setImagePrompt(randomItem.prompt)
-    openImageComposer()
-    setStatus(`已随机填入完整案例：例 ${randomItem.number} / ${randomItem.title}`)
+    setLibraryDetailOpen(true)
+    setStatus(`已随机选择完整案例：例 ${randomItem.number} / ${randomItem.title}`)
   }
 
   const pushMessage = (message: Omit<ChatMessage, 'id' | 'createdAt'>) => {
