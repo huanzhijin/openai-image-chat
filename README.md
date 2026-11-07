@@ -2,6 +2,20 @@
 
 一个本地可运行、支持局域网访问的黑色系 OpenAI-compatible 聊天/画图网页。核心目标是让你快速使用 **gpt-image-2** 生成图片，同时可以在页面里切换 API Base URL、API Key 和模型名。
 
+## 界面预览
+
+### 桌面端
+![桌面端界面](screenshots/desktop.png)
+
+### 移动端
+<img src="screenshots/mobile.png" alt="移动端界面" width="375">
+
+### 灵感库
+![灵感库](screenshots/library.png)
+
+### 画廊视图
+![画廊视图](screenshots/gallery.png)
+
 ## 已实现功能
 
 - 黑色系简约聊天界面
