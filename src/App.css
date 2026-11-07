@@ -1284,13 +1284,18 @@ label.icon-btn:focus-within { outline: 2px solid var(--amber); outline-offset: 2
 .case-hero {
   width: 100%;
   border-radius: var(--r-md);
-  overflow: hidden;
   border: 1px solid var(--line);
   background: var(--raise);
   cursor: zoom-in;
 }
 
-.case-hero img { display: block; width: 100%; max-height: 400px; object-fit: contain; }
+.case-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--r-md);
+}
 
 .prompt-text {
   width: 100%;
